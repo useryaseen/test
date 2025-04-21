@@ -25,7 +25,7 @@ const App = () => {
         onClick={handleApiCall}
         className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
       >
-        Call API
+        Call APIs
       </button>
 
       {loading && <p className="mt-4">Loading...</p>}
