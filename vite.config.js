@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': 'http://demo.rentro.ae:8082/',
+  
     },
   }
 })
